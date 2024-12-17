@@ -16,7 +16,7 @@ from skimage.util.shape import view_as_blocks
 
 
 ######################## FILL IN THESE FIELDS ########################
-BLOCK_SIZE = 90
+BLOCK_SIZE = 85
 SCALE_TARGET_IMAGE = 1.0
 SCALE_SOURCE_IMAGES = 1.0
 ######################## FILL IN THESE FIELDS ########################
