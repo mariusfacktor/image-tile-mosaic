@@ -7,7 +7,7 @@ This works because the DCT transforms an image into its frequency components, an
 
 ## Usage
 
-Set the fields in the top of image_tile_mosaic.py to change the block size or resize the images. 
+Set the fields in the top of image_tile_mosaic.py to change the block size or resize the images. Then run the script. The first argument should the the target image and the next arguments should be any number of source images. 
 
 ```
 python image_tile_mosaic.py target.jpg source1.jpg source2.jpg source3.jpg
@@ -24,4 +24,7 @@ python image_tile_mosaic.py target.jpg source1.jpg source2.jpg source3.jpg
 <br>
 
 Left to right:
-target image, source image, reconstruction, source image annotation closeup
+target image, source image, reconstruction, annotaed source image closeup
+
+The annotated source image highlights the used blocks in white and contains three bits of information, row, column, and rotation. For instance, "6 8 L" means this block should be placed on the reconstructed image at row 6 (0-indexed) column 8 (0-indexed) and rotated 90 degrees to the Left (counterclockwise). 
+
