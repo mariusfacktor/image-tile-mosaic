@@ -26,5 +26,5 @@ python image_tile_mosaic.py target.jpg source1.jpg source2.jpg source3.jpg
 Left to right:
 target image, source image, reconstruction, annotated source image closeup
 
-The annotated source image highlights the used blocks in white and contains three bits of information, row, column, and rotation. For instance, "6 8 L" means this block should be placed on the reconstructed image at row 6 (0-indexed) column 8 (0-indexed) and rotated 90 degrees to the Left (counterclockwise). 
+The annotated source image outlines the used blocks in white and contains three bits of information, row, column, and rotation. For instance, "6 8 L" means this block should be placed on the reconstructed image at row 6 (0-indexed) column 8 (0-indexed) and rotated 90 degrees to the Left (counterclockwise). 
 
