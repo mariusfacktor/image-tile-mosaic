@@ -1,7 +1,7 @@
 
 # Image Tile Mosaic
 
-This allows you to recreate a target image with blocks from one or more source images. We take the Discrete Cosine Transform (DCT) of each block in the target image, and compare that to each DCT block in the source images using Mean Squared Error (MSE). We then tile the target image with blocks from the source image that had the lowest MSE (without replacement). It outputs the reconstructed image made up of blocks from the source image, and annotated versions of the source images, describing where each block should be place to form the reconstructed image. 
+This allows you to recreate a target image with blocks from one or more source images. We take the Discrete Cosine Transform (DCT) of each block in the target image, and compare that to each DCT block in the source images using Mean Squared Error (MSE). We then tile the target image with blocks from the source image that had the lowest MSE (without replacement). It outputs the reconstructed image made up of blocks from the source image, and annotated versions of the source images, describing where each block should be placed to form the reconstructed image. 
 
 This works because the DCT transforms an image into its frequency components, and two images with similar frequency components contain similar shapes. So by replacing the target image blocks with blocks that contain similar shapes, we retain the objects in the target image. 
 
