@@ -24,7 +24,7 @@ SCALE_SOURCE_IMAGES = 1.0
 
 
 ############################### USAGE ################################
-# python3 dct_match.py target.jpg source1.jpg source2.jpg source3.jpg
+# python3 image_tile_mosaic.py target.jpg source1.jpg source2.jpg source3.jpg
 # jpg or png are fine
 ############################### USAGE ################################
 
